@@ -1,0 +1,64 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/expert/expert",
+    "pages/index/ad/ad1/ad1",
+    "pages/index/ad/ad2/ad2",
+    "pages/index/ad/ad3/ad3",
+    "pages/index/ad/ad4/ad4",
+    "pages/index/ad/ad5/ad5",
+    "pages/index/ad/ad6/ad6",
+    "pages/activity_list/activity_list",
+    "pages/message/message",
+    "pages/message/conversation/conversation",
+    "pages/search/search",
+    "pages/search/searchView/searchView",
+    "pages/activity_list/detail/detail",
+    "pages/intro/intro",
+    "pages/user/user",
+    "pages/user/safety/safety",
+    "pages/user/secret/secret",
+    "pages/user/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#479de6",
+    "navigationBarTitleText": "幸福影院",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#F4A460",
+    "boederStyle":"white",
+    "backgroundColor":"white",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "iconPath":"assets/images/iconfont-home.png",
+      "selectedIconPath": "assets/images/iconfont-home-active.png",
+      "text":"首页"
+    },
+    {
+      "pagePath": "pages/activity_list/activity_list",
+      "iconPath": "assets/images/iconfont-list.png",
+      "selectedIconPath": "assets/images/iconfont-list-active.png",
+      "text": "活动"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "iconPath": "assets/images/iconfont-order-default.png",
+      "selectedIconPath": "assets/images/iconfont-order.png",
+      "text": "消息"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "iconPath": "images/search.png",
+      "selectedIconPath": "images/搜索.png",
+      "text": "搜索"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "iconPath": "assets/images/iconfont-user.png",
+      "selectedIconPath": "assets/images/iconfont-user-active.png",
+      "text": "我的"
+    }]
+  }
+}

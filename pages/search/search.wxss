@@ -1,0 +1,51 @@
+@import "/wxSearch/wxSearch.wxss";
+.container{
+  height: 1500rpx;
+}
+
+.cells {
+  background-color: #fff;
+}
+
+.cells .item {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1rpx solid #eee;
+}
+
+.cells .item image {
+  width: 100rpx;
+  height: 120rpx;
+  margin: 20rpx;
+}
+
+.cells .item .meta {
+  display: flex;
+  padding: 20rpx 10rpx;
+  flex-direction: column;
+}
+.cells .item .meta .column {
+  color: #234;
+  font-size: 25rpx;
+}
+.cells .item .self{
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+.cells .item .self .btn{
+  width: 120rpx;
+  height: 40rpx;
+  font-size: 20rpx;
+  text-align: center;
+  padding:0;
+  margin-left: 20rpx;
+}
+.cells .item .self .score {
+  padding:0;
+  margin-left: 120rpx;
+  background-color: #ee523d;
+  border-radius: 30rpx;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+}

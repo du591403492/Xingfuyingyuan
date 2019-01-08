@@ -1,0 +1,12 @@
+/* pages/safety/safety.wxss */
+.num{
+  margin-top: 15rpx;
+}
+
+.top{
+  margin-top: 20rpx;
+}
+
+page{
+  background: #f0f0f4;
+}

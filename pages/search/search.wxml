@@ -1,0 +1,29 @@
+<import src="/wxSearch/wxSearch.wxml"/>
+
+<view class="wxSearch-section">
+  <view class="wxSearch-pancel">
+    <input bindinput="wxSearchInput" bindfocus="wxSerchFocus" value="{{wxSearchData.value}}" bindblur="wxSearchBlur" class="wxSearch-input" placeholder="搜索" />
+    <button class="wxSearch-button" bindtap="wxSearchFn" size="mini" plain="true">搜索</button>
+  </view>
+</view>
+<template is="wxSearch" data="{{wxSearchData}}"/>
+
+  <navigator class="cells" url="../message/conversation/conversation">
+
+    <view class="item">
+      <image src="/images/expert2.jpg" />
+      <view class="meta">
+        <text class="column">姓名id</text>
+        <text class="column">未婚</text>
+        <text class="column">27岁</text>
+      </view>
+      <view class="meta">
+          <text class="column">广东省珠海市</text>
+          <text class="column">个人介绍个人介绍个人介绍</text>
+      </view>
+      <view class="self">
+          <text class="score">100</text>
+      </view>
+    </view> 
+
+  </navigator>

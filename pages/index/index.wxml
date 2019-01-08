@@ -1,0 +1,106 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+  </swiper>
+  <view class="gap-1"></view> 
+
+
+<view class="menu-wrp">
+  <!--设定一个item项后，遍历输出-->
+    <view class="title_val">今日推荐</view>
+  <view class="menu-list" wx:for="{{menu.imgUrls}}">
+    <image class="menu-img" src="{{item}}" bindtap="peple" />
+    <view class="menu-desc">{{menu.descs[index]}}</view>
+  </view>
+</view>
+<button class="change" type="warn" size="primary" bindtap="changeButton"> 换一换 </button>
+<view class="gap-1"></view> 
+
+
+
+  <!--head-->
+  <view class="tit">
+    <view class="title_val" >活动报名</view>
+  <!--list-->
+  <view class="goodslist" bindtap="list">
+    <!--item-->
+    <block wx:for="{{goodslist}}"  >
+      <view class="goods">
+        <!--左侧图片盒子-->
+        <view>
+          <image src="{{item.imgUrl}}" class="good-img" />
+        </view>
+        <!--右侧说明部分-->
+        <view class="good-cont">
+          <!--上--文字说明-->
+          <view class="goods-navigator">
+            <text class="good-name">{{item.name}}</text>
+          </view>
+          <!--下--时间部分-->
+          <view class="good-time">
+            <text>{{item.time}}</text>
+          </view>
+           <view class="good-place">
+            <text>{{item.place}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+    </view>
+  <button class="past" type="warn" size="primary" bindtap="pastButton"> 往期活动列表 </button>
+  </view>
+  <view class="gap-1"></view>
+
+
+  <view class="Emotion-expert">
+  <view class="title_val">情感专家</view>
+  <scroll-view scroll-x="true"> 
+ <view class="ExpertWrap" scroll-x="true" > 
+ <view class="Expert_Item" wx:for="{{Expert.imgUrls}}">
+    <image class="Expert_Item_img" src="{{item}}" />
+    <view class="Expert-desc">{{Expert.descs[index]}}</view>
+  </view> 
+ </view> 
+</scroll-view>
+<button class="more" type="warn" size="primary"  bindtap="expert">更多专家 </button>
+</view>
+<view class="gap-1"></view>
+
+
+<view class="wecan">
+<view class="title_val">我们可以</view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="gridsIndex">
+                <navigator url="{{item.gourl}}" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="icon" src="{{item.url}}" />
+                </navigator>
+            </block>
+        </view>
+    </view>
+<!--<view class="flex-row" style="width=100%;height=40px">
+  <view  style="width:33%;height=20px;alien=center" bindtap="ad1"><image src='/images/科学匹配.jpg' style="width:105%" /></view>
+  <view  style="width:33%;height=20px;alien=center" bindtap="ad2"><image src='/images/私人订制.jpg' style="width:105%"/></view>
+  <view  style="width:33%;height=20px;alien=center" bindtap="ad3"><image src='/images/关于我们.jpg' style="width:105%"/></view>
+</view>
+<view class="flex-row">
+  <view style="width:33%;height=20px;alien=center" bindtap="ad4"><image src='/images/团队风采.jpg'  style="width:105%"/></view>
+  <view style="width:33%;height=20px;alien=center" bindtap="ad5"><image src='/images/情感教室.jpg' style="width:105%"/></view>
+  <view style="width:33%;height=20px;alien=center" bindtap="ad6"><image src='/images/企业联谊.jpg'style="width:105%" /></view>
+</view>-->
+</view>
+<view class="gap-1"></view>
+
+
+<view class="ps">
+版权所有：珠海影响文化传播有限公司
+<view class="ps-1" bindtap="ps-1">备案号：粤ICP备17118901</view>
+<view>电话：0756—2661577</view> 
+<view>邮箱：15992630533@163.com </view>
+<view>不良信息举报电话：13168678973（09：00 ~ 21：00）</view>
+<view>地址：广东省珠海市前山区金鸡路左右创意园1栋2楼T创空间</view>
+</view>

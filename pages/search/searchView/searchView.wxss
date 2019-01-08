@@ -1,0 +1,7 @@
+/* pages/search/searchView/searchView.wxss */
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}

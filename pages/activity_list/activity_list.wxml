@@ -1,0 +1,48 @@
+
+<view class="top-tab flex-wrp flex-tab " >
+  <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab">
+    {{itemName}}
+  </view>
+</view>
+
+  <view class="container withtab cells" hidden="{{currentNavtab==0 ? '' : true}}">
+
+    <navigator class="item"  wx:key="id" url="../activity_list/detail/detail" >
+      <image src="../image/activity_logo.jpg" />
+      <view class="meta">
+        <text class="name">策划活动</text>
+        <text class="phone">时间：123</text>
+        <text class="address">地址：dwsad</text>
+        <text class="hours">人员：asd</text>
+      </view>
+    </navigator>
+
+  </view>
+
+  <view class="container withtab cells" hidden="{{currentNavtab==1 ? '' : true}}">
+
+    <navigator class="item"  wx:key="id" url="" >
+      <image src="../image/activity_logo.jpg" />
+      <view class="meta">
+        <text class="name">往期策划</text>
+        <text class="phone">时间：dlq</text>
+        <text class="address">地址：dwsad</text>
+        <text class="hours">人员：asd</text>
+      </view>
+    </navigator>
+
+  </view>
+
+<!-- 接后台接口
+<view class="cells">
+  <navigator class="item" wx:for="{{shops}}" wx:key="id" url="/pages/detail/detail?item={{item.id}}">
+    <image src="{{item.images[0]}}" mode="aspectFill"/>
+    <view class="meta">
+      <text class="name">{{item.name}}</text>
+      <text class="phone">电话：{{item.phone || 'none'}}</text>
+      <text class="address">地址：{{item.address}}</text>
+      <text class="hours">营业时间：{{item.businessHours}}</text>
+    </view>
+    <view class="score">{{item.score || 'none'}}</view>
+  </navigator>
+</view>--> 

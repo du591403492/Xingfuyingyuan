@@ -1,0 +1,18 @@
+<!--pages/intro/intro.wxml-->
+<view class="peplea">
+<image class="peo-img" src='/images/ds_lds_x.jpg' />
+</view>
+<view class="a">
+<view>姓名：**</view>
+<view>性别：**</view>
+<view>年龄：**</view>
+<view>身高：**</view>
+<view>学历：**</view>
+<view>收入：**</view>
+<view>居住地：**</view>
+<view>购房：**</view>
+<view>婚姻：**</view>
+<view>子女：**</view>
+<view>购车：**</view>
+</view>
+<button class="loading" type="warn" size="primary" bindtap="loadingButton"> 查看更多会员资料请登录 </button>

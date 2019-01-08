@@ -1,0 +1,26 @@
+<!--pages/expert/expert.wxml-->
+<view class="Expert page">
+    <view class="page__hd">
+        <view class="page__title">情感专家</view>
+        <view class="page__desc">多位高级情感专家在线解忧</view>
+    </view>
+<block wx:for="{{expertlist}}" wx:for-index="id">
+      <view class="experts" id="{{expertlist.index}}" bindtap="expertdetail"  >
+        <!--左侧图片盒子-->
+        <view>
+          <image class="expert-img" src="{{item.imgUrl}}"  />
+        </view>
+        <!--右侧说明部分-->
+        <view class="expert">
+          <!--上--文字说明-->
+          <view class="expert-name">
+            <text class="name">{{item.name}}</text>
+          </view>
+          <!--下--文字部分-->
+          <view class="expert-intro">
+            <text>{{item.intro}}</text>
+          </view>
+        </view>
+      </view>
+      </block>
+    </view>

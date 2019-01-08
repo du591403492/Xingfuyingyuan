@@ -1,0 +1,35 @@
+/* pages/expert/expert.wxss */
+.qing{
+  border-bottom: 1px solid #C0C0C0
+}
+.Expert{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.experts{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px 
+    solid #ddd;
+    padding: 5%;
+}
+.expert-img{
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+}
+.expert-name{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 14px;
+}
+.expert-intro{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}

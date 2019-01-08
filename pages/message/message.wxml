@@ -1,0 +1,28 @@
+<view class="top-tab flex-wrp flex-tab " >
+  <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab">
+    {{itemName}}
+  </view>
+</view>
+
+
+<view class="container withtab cells" hidden="{{currentNavtab==0 ? '' : true}}">
+  <navigator class="cells" url="../message/conversation/conversation">
+
+    <view class="item">
+      <image src="/images/expert2.jpg" />
+      <view class="meta">
+        <text class="name">姓名id</text>
+        <text class="txt">正文正文正文正文正文正文正文正文正文正文正文正文</text>
+      </view>
+    </view> 
+
+  </navigator>
+</view>
+
+<view class="container withtab cells" hidden="{{currentNavtab==1 ? '' : true}}">
+
+</view>
+
+<view class="container withtab cells" hidden="{{currentNavtab==2 ? '' : true}}">
+
+</view>

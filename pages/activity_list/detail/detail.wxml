@@ -1,0 +1,63 @@
+
+<view class="card">
+  <view class="table">
+    <text class="tr-1 title" height="2rem">第XX期 - xxxxxxxxxsdgfsdfs小M第</text>
+    <text class="tr-1 time" height="1rem">发表时间 2016-06-30 15:30</text>
+    <view class="tr " >
+      <image class="td" src=""></image>
+      <text class="td-1">活动时间</text> 
+      <text class="td-2">2017-12-28 10.00-11.30</text> 
+    </view>
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">活动地点</text> 
+      <text class="td-2">度开发接口速度快速地 是</text> 
+    </view>
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">活动类型</text> 
+      <text class="td-2">斯大法斯蒂芬速度地方</text> 
+    </view>   
+
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">活动要求</text> 
+      <text class="td-2">斯打死打伤打</text> 
+    </view>
+       
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">活动要求</text> 
+      <text class="td-2">斯打死打伤打</text> 
+    </view>
+       
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">活动费用</text> 
+      <text class="td-2">10元</text> 
+    </view>
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">人数限制</text> 
+      <text class="td-2">N男N女</text> 
+    </view>
+       
+    <view class="tr" >
+      <image class="td" src=""></image>
+      <text class="td-1">活动简介</text> 
+      <text class="td-2">四大欠王算法vgdsbaffh</text> 
+    </view>
+    <view class="tr" >
+      <button>立即参加</button>
+    </view>
+  </view>
+
+</view>
+
+<view class="card page" > 
+  <text class="page__title">活动详情</text>
+   <image src="/pages/image/activity_logo.jpg" />
+    <image src="/pages/image/activity_logo.jpg" />
+      <text class="page__desc">字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文</text>
+</view>
+

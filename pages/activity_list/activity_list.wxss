@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+.container{
+  height: 1500rpx;
+}
+
+.top-tab{
+  width: 750rpx;
+  height: 100rpx;
+  background:  #479de6;
+  color: #8CCEFD;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  box-shadow: 0 2px 2px #bebebe;
+  margin: 0 0 8rpx 0;
+  z-index: 9999;
+}
+
+
+.cells {
+  background-color: #fff;
+}
+
+.cells .item {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1rpx solid #eee;
+}
+.cells .item image {
+  width: 240rpx;
+  height: 160rpx;
+  margin: 20rpx;
+}
+
+.cells .item .meta {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10rpx 0;
+  font-size: 30rpx;
+}
+
+.cells .item .meta .name {
+  color: #234;
+  font-size: 28rpx;
+}
+
+.cells .item .meta .phone,
+.cells .item .meta .address {
+  color: #678;
+  font-size: 24rpx;
+}
+
+.cells .item .meta .hours {
+  /*color: #ff69b4;*/
+  color: #456;
+  font-size: 22rpx;
+}
